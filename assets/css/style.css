@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #c43e97;
+  background: #FF4EC4;
   color: #fff;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #641959;
+  background: #EB0C40;
   color: #fff;
 }
 
@@ -424,6 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
+  margin-top: 8rem;
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
@@ -611,13 +612,14 @@ section {
 }
 
 .counts .count-box span {
+  margin-top: 8rem;
   font-size: 48px;
   line-height: 48px;
   display: block;
   font-weight: 700;
   color: #124265;
   margin-left: 80px;
-  margin: auto;
+  margin-right: 5rem;
 }
 
 .counts .count-box p {
@@ -626,6 +628,7 @@ section {
   font-weight: 600;
   font-size: 14px;
   color: #1e6ca6;
+  margin-top: 1rem;
 }
 
 /*--------------------------------------------------------------

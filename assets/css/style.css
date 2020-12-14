@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #c43e97;
+  background: #FF4EC4;
   color: #fff;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #641959;
+  background: #EB0C40;
   color: #fff;
 }
 

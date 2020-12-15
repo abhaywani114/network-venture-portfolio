@@ -6,7 +6,7 @@ $subject = $_POST['subject'];
 $msg = nl2br($_POST['message']);
 
 $phpMailer = new PHPMailer(true);
-$phpMailer->SMTPDebug = 4; // Enable verbose debug output
+//$phpMailer->SMTPDebug = 4; // Enable verbose debug output
 $phpMailer->isSMTP();
 $phpMailer->Host = "smtp.zoho.in";
 $phpMailer->SMTPAuth = true;
@@ -17,7 +17,7 @@ $phpMailer->Port = 587;
 $phpMailer->isHTML(true);
 $phpMailer->CharSet = "UTF-8";
 $phpMailer->setFrom("support@network-venture.com", "Support");
-$phpMailer->addAddress('support@network-venture.com');//"mail-to");
+$phpMailer->addAddress('support@network-venture.com','admin@network-venture.com');//"mail-to");
 $phpMailer->Subject = "Contact Request | $subject";
 $phpMailer->Body = <<<EOD
 Sender: $from <br/>

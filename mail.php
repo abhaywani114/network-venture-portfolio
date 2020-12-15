@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application/json');
+// header('Content-Type: application/json');
 require __DIR__.'/mail/class.phpmailer.php';
 $from = $_POST['name'];
 $email = $_POST['email'];
@@ -27,5 +27,6 @@ Msg: <br/>
 $msg
 EOD;
 $phpMailer->send();
-echo json_encode(['msg' => 'OK']);
+//echo json_encode(['msg' => 'OK']);
+echo "OK";
 ?>
